@@ -1,0 +1,135 @@
+
+
+body {
+    background-color: #121212;
+}
+
+#colorBackground {
+    background-image: url("https://i.imgur.com/cUq6Bfh.png");
+    background-repeat: no-repeat;
+    background-color: #282828;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh; 
+    padding-top: 67vh; 
+    max-height: 100vh
+}
+te
+#bioColumn {
+    height: 100vh;
+    top: 0;
+}
+
+h3, p, h4, h2, h1, h6{
+    color: #787878;
+}
+.buttons {
+    height: 80px;
+    margin: 10px;
+    border-radius: 12px;
+}
+
+
+.download:hover {
+    background-color: lightgray;
+}
+
+body {
+    animation-name: alphaIn;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in;
+}
+
+@keyframes alphaIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #colorBackground {
+        padding-top: 34vh;
+        min-height: 100vh;
+        max-height: 100vh;
+        background-image: url("https://i.imgur.com/vQOEBWU.png");
+    }
+    .under-image {
+        margin-top: -5px;
+        margin-bottom: 30px;       
+    }
+    .buttons {
+        height: 70px
+    }
+    h2 {
+        font-size: 40px;
+    }
+}
+
+.thin {
+    font-weight: 300 !important;
+}
+
+@media only screen and (max-height: 700px) {
+    #colorBackground {
+        padding-top: 34vh;
+        min-height: 100vh;
+        max-height: 700px;
+    }
+}
+@media only screen and (max-height: 610px) {
+    #colorBackground {
+        padding-top: 40vh;
+        min-height: 100vh;
+        max-height: 700px;
+    }
+}
+
+
+
+
+#linkContent {
+    padding-top: 10px;
+    text-align: center;
+}
+
+.links {
+    margin: 0 20px 0 20px;
+    display: inline-block;
+    font-size: 16px;
+    color: #ffffff;
+    padding-left: 14px;
+    padding-right: 14px;
+    border-radius: 30px;
+}
+
+.socialhovertext {
+    color: #ffffff;
+}
+
+.socialhover:hover {
+    background-color: #000000;
+    transition-duration: 0.5s;
+    color: #ffffff;
+}
+
+@media screen and (max-width: 600px) {
+    .reverseonmobile {
+        display: flex;
+        flex-direction: column-reverse;
+
+    }
+
+}
+
+.under-image {
+    font-size: 1.2rem;
+}
+
+#VANCED {
+    background: -webkit-linear-gradient(50deg, rgba(46,115,255,1) 0%, rgba(255,0,50,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
