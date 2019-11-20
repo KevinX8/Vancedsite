@@ -47,9 +47,11 @@ h3, p, h4, h2, h1, h6{
     border-radius: 12px;
 }
 
-
-.download:hover {
-    background-color: lightgray;
+.buttons:hover {
+    filter: brightness(0.8);
+}
+.buttons:active {
+    filter: brightness(0.7); 
 }
 
 body {
