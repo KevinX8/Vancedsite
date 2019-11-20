@@ -14,7 +14,25 @@ body {
     padding-top: 67vh; 
     max-height: 100vh
 }
-te
+
+.links {
+    margin: 0 20px 0 20px;
+    display: inline-block;
+    color: #ffffff;
+    padding-left: 14px;
+    padding-right: 14px;
+    border-radius: 30px;
+}
+
+.socialtext {
+    color: #ffffff;
+}
+
+.social:hover {
+    background-color: #000000;
+    transition-duration: 0.5s;
+    color: #ffffff;
+}
 #bioColumn {
     height: 100vh;
     top: 0;
@@ -66,6 +84,7 @@ body {
     h2 {
         font-size: 40px;
     }
+
 }
 
 .thin {
@@ -85,46 +104,9 @@ body {
         min-height: 100vh;
         max-height: 700px;
     }
+
 }
 
-
-
-
-#linkContent {
-    padding-top: 10px;
-    text-align: center;
-}
-
-.links {
-    margin: 0 20px 0 20px;
-    display: inline-block;
-    color: #ffffff;
-    padding-left: 14px;
-    padding-right: 14px;
-    border-radius: 30px;
-}
-
-.socialhovertext {
-    color: #ffffff;
-}
-
-.socialhover:hover {
-    background-color: #000000;
-    transition-duration: 0.5s;
-    color: #ffffff;
-}
-
-@media screen and (max-width: 600px) {
-    .reverseonmobile {
-        display: flex;
-        flex-direction: column-reverse;
-
-    }
-}
-
-.socials-text {
-    color: #ffffff;
-}
 
 .under-image {
     font-size: 1.2rem;
