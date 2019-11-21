@@ -11,7 +11,7 @@ body {
     background-size: cover;
     background-position: center;
     min-height: 100vh; 
-    max-height: 100vh
+    max-height: 100vh;
 }
 
 .links {
@@ -90,12 +90,12 @@ body {
 }
 
 @media only screen and (max-height: 700px) {
-    .headtexting {
-        position: absolute; top:240px;
-    }
     #colorBackground {
         min-height: 700px;
         max-height: 700px;
+    }
+    .headtexting {
+        position: absolute; bottom:0
     }
 }
 
