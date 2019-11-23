@@ -38,7 +38,7 @@ var allowedKeys = {
   });
   
   function activateCheats() {
-    window.open('https://www.youtube.com/premium');
+    window.open('https://www.youtube.com/watch?v=s3irWcAJhyU&feature=youtu.be');
   
     alert("cheats activated");
   }
