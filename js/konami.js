@@ -38,10 +38,7 @@ var allowedKeys = {
   });
   
   function activateCheats() {
-    window.open('https://www.youtube.com');
-  
-    var audio = new Audio('audio/pling.mp3');
-    audio.play();
+    window.open('https://www.youtube.com/premium');
   
     alert("cheats activated");
   }
