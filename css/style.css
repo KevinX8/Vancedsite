@@ -4,6 +4,7 @@ body {
     background-color: #121212;
 }
 
+
 #colorBackground {
     background-image: url("https://i.imgur.com/cUq6Bfh.png");
     background-repeat: no-repeat;
@@ -91,8 +92,8 @@ body {
 
 @media only screen and (max-height: 700px) {
     #colorBackground {
-        min-height: 700px;
-        max-height: 700px;
+        min-height: 644px;
+        max-height: 644px;
     }
     .headtexting {
         position: absolute; bottom:0
