@@ -72,6 +72,7 @@ body {
 @media only screen and (max-width: 600px) {
     #colorBackground {
         background-image: url("https://i.imgur.com/vQOEBWU.png");
+        
     }
     .under-image {
         margin-top: -5px;
@@ -90,10 +91,10 @@ body {
     font-weight: 300 !important;
 }
 
-@media only screen and (max-height: 700px) {
+@media only screen and (max-height: 750px) {
     #colorBackground {
-        min-height: 644px;
-        max-height: 644px;
+        min-height: 750px;
+        max-height: 750px;
     }
     .headtexting {
         position: absolute; bottom:0
